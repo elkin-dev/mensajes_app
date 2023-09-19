@@ -1,5 +1,3 @@
-import java.sql.Connection;
-import java.sql.SQLException;
 import java.util.Scanner;
 
 public class Main {
@@ -36,18 +34,6 @@ public class Main {
 
         } while (opcion != 5);
 
-        /*
-        ConexionBD gestorConexion = new ConexionBD();
-        Connection conexion = gestorConexion.getConexion();
-        // Aquí puedes realizar operaciones con la conexión, como ejecutar consultas SQL.
-        // No te olvides de cerrar la conexión cuando hayas terminado.
-        try {
-            if (conexion != null) {
-                conexion.close();
-            }
-        } catch (SQLException e) {
-            System.out.println("Error al cerrar la conexión: " + e.getMessage());
-        }
-        */
+
     }
 }
